@@ -1,0 +1,21 @@
+RHYTHM ∞ RAATRI — IMAGE REPLACEMENT GUIDE
+
+Replace each placeholder file with a properly licensed, approved business photograph using the same filename.
+Keep dimensions/aspect ratio reasonably close to avoid unexpected crops.
+
+assets/placeholders/hero-ceremony.webp       Homepage and key page hero; wide cinematic wedding scene
+assets/placeholders/mandap-detail.webp        Weddings, mandap and wedding detail imagery
+assets/placeholders/reception-tables.webp     Reception, private dining and celebrations
+assets/placeholders/private-celebration.webp  Birthdays and private milestone occasions
+assets/placeholders/corporate-gathering.webp  Corporate gatherings and business events
+assets/placeholders/destination-evening.webp  Destination and outdoor evening events
+assets/placeholders/floral-walkway.webp       Floral décor, venue and editorial brand imagery
+assets/placeholders/planning-conversation.webpPlanning / coordination context; replace with approved team imagery
+
+Logo variants (preserve their original artwork):
+assets/brand/logo-full.png
+assets/brand/logo-horizontal.png
+assets/brand/logo-mark.png
+assets/brand/logo-wordmark.png
+
+Important: placeholder photography is illustrative only. Do not publish it as a completed client project.

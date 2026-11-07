@@ -1,0 +1,22 @@
+{
+  "html_pages": 25,
+  "internal_anchor_count": 1073,
+  "rewritten_explicit_index_routes": 945,
+  "missing_local_references": 0,
+  "empty_or_placeholder_anchors": 0,
+  "non_explicit_internal_html_routes": 0,
+  "viewport_combinations": 125,
+  "horizontal_overflow_combinations": [],
+  "js_not_initialized": [],
+  "browser_page_errors": [],
+  "interactive_checks": {
+    "mobile_menu_open_close_and_about_route": "PASS",
+    "mobile_experiences_dropdown_route": "PASS",
+    "desktop_dropdown_route": "PASS",
+    "enquiry_validation_and_step_navigation": "PASS",
+    "portfolio_filters": "PASS"
+  },
+  "issues": [],
+  "empty_anchors": [],
+  "non_explicit_examples": []
+}

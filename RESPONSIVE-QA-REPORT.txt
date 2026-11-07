@@ -1,0 +1,29 @@
+RHYTHM ∞ RAATRI — STATIC SITE LINK & INTERACTION QA
+===================================================
+
+Build: Plain HTML5, CSS3 and vanilla JavaScript. No framework or build process.
+
+Compatibility fix:
+- Rewrote all internal route links to explicit index.html file targets.
+- This avoids relying on web-server directory-index resolution and makes local file navigation work more reliably.
+- Kept all image, stylesheet and JavaScript references relative to each page.
+
+Static validation:
+- 25 HTML pages audited.
+- 945 internal anchors rewritten to explicit HTML file paths.
+- All local href/src references resolve to files.
+- No empty or placeholder anchors were found.
+
+Chromium DOM interaction validation:
+- All 25 pages checked at 320, 390, 768, 1024 and 1440 CSS px (125 layout checks).
+- Mobile navigation open/close and About navigation target: PASS.
+- Mobile Experiences dropdown and Weddings navigation target: PASS.
+- Desktop Experiences dropdown and All experiences navigation target: PASS.
+- Enquiry form required-field validation, step 1 → 2 → 3 and Back: PASS.
+- Portfolio category filtering: PASS.
+- No JavaScript page errors in the interaction harness.
+
+Notes:
+- The browser interaction checks run the actual site CSS and JavaScript in a network-free Chromium test harness. Internal route destinations were also checked against the actual files on disk.
+- Mail, telephone and WhatsApp links invoke the visitor's corresponding device/app. The contact form creates an email draft; it does not send automatically.
+- External font loading depends on network access; the site has local fallback fonts.
